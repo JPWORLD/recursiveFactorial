@@ -17,7 +17,7 @@ public class FactorialUsingRecursion {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner value = new Scanner(System.in);
-         System.out.println("Please Enter the number:");
+         System.out.println("Please Enter a number:");
         int n = value.nextInt();
          int number = calculatefactorial(n);
         System.out.println("Factorial of number "+ n +" is : " +number);
